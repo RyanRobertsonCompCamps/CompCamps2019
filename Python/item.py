@@ -7,9 +7,9 @@ class Item:
         self.disposable = disposable
 
 items = [
-Item("Potion of Life", 0, 50, True),#UNCOMMON
+Item("Potion of Life", 0, 250, True),#UNCOMMON
 Item("Health Potion", 0, 10, True),#COMMON
-Item("Parasitic Poison", 100, 0),#UNCOMMON
+Item("Parasitic Poison", 200, 0, True),#UNCOMMON
 Item("Cosmic Egg", 10, -5, True),#COMMON
 Item("Black Dart", 3, -2, True),#COMMON
 Item("Syringe", 2, 5, True),#COMMON

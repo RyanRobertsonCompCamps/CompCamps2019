@@ -8,7 +8,7 @@ def get():
 class MissingNo:
     def __init__(self):
             self.health = 1
-            self.damage = random.randint(1, 50)
+            self.damage = random.randint(1, 1)
 
     def isAlive(self):
         return self.health >= 0

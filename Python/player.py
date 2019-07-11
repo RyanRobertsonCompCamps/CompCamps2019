@@ -4,7 +4,7 @@ class Player:
     def __init__(self, name):
         self.name = name
         self.inventory = []
-        self.health = 50
+        self.health = 100
     def isAlive(self):
         return self.health > 0
     def addItem(self, item):
